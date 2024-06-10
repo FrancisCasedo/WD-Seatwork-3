@@ -352,10 +352,12 @@ html {
 
 .item-6 i:not(:hover){
     font-size: 25px;
+    transition: all 0.1s ease 0s;
 }
 
 .item-6 #exit:hover{
     background-color: rgb(7,130,73);
+    transition: all 0.3s ease 0s;
 }
 
 .item-6 a{
@@ -421,11 +423,15 @@ html {
 
 .item-7 p:hover {
     border-bottom: 2px solid black;
+    transition: all 0.1s ease 0s;
 }
 
 .item-7 h1:hover {
     border-bottom: 2px solid black;
+    transition: all 0.1s ease 0s;
 }
+
+
 
 .item-7 #Right i{
     font-size: 15px;
@@ -459,6 +465,8 @@ html {
     margin-right: 55px;
 }
 
+
+
 .item-7 #Left i{
     font-size: 18px;
     color: black;
@@ -476,6 +484,11 @@ html {
     column-gap: 10px;
     margin-left: 30px;
     margin-top: 10px;
+}
+
+.item-8 #nav a:not(:hover){
+    border-bottom: 1px solid wheat;
+    transition: all 0.3s ease 0s;
 }
 
 .item-8 #left #nav{
@@ -496,6 +509,11 @@ html {
     color: white;
 }
 
+.item-8 #left #boot a:hover{
+    transform: rotateY(180deg);
+    transition: all 0.2s ease 0s;
+}
+
 .item-8 #right{
     display: flex;
     align-items: center;
@@ -510,6 +528,13 @@ html {
     margin-right: 15px;
     color: white;
 }
+
+.item-8 #right a:not(:hover){
+    transform: rotateX(360deg);
+    transition: all 0.5s ease 0s;
+}
+
+
 
 .item-9{
     display: flex;
@@ -533,10 +558,15 @@ html {
     color: rgb(119,121,125);
 }
 
+.item-9 #left #search i:hover{
+    color:black;
+    font-size: larger;
+}
+
+
 .item-9 #middle{
     column-gap: 80px;
 }
-
 
 .item-9 #middle i{
     font-size: 22px;
@@ -548,6 +578,7 @@ html {
     color: rgb(8,102,255);
     background-color: rgb(228,230,235);
     padding-bottom: 30px;
+    transition: all 0.2s ease 0s;
 }
 
 
@@ -561,6 +592,7 @@ html {
     width: 30px;
     display: flex;
     justify-content: center;
+    background-color: rgb(235,245,255);
 }
 
 .item-9 #right #circle i{
@@ -572,12 +604,9 @@ html {
     color: rgb(8,102,254);
 }
 
-.item-9 #right #circle:hover{
-    background-color: rgb(235,245,255);
-}
-
 .item-9 #right #circle:not(:hover){
     background-color:rgb(228,230,235);
+    transition: all 0.2s ease 0s;
 }
 
 .item-9 #right #leftI {
