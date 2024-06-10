@@ -81,5 +81,15 @@ body{
 }
 
 
+.image img.brand {
+    position: absolute;
+    height: 108%;
+    left: 90%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+    margin-bottom: 5px;
+}
+
 
 

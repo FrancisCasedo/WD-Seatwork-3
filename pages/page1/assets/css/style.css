@@ -304,6 +304,7 @@ html {
 .item-5 #middle p {
     color: black;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .item-5 #right {
@@ -355,7 +356,7 @@ html {
     transition: all 0.1s ease 0s;
 }
 
-.item-6 #exit:hover{
+.item-6 #exit:not(:hover){
     background-color: rgb(7,130,73);
     transition: all 0.3s ease 0s;
 }
@@ -574,7 +575,7 @@ html {
     padding: 10px;
 }
 
-.item-9 #middle i:hover{
+.item-9 #middle i:active{
     color: rgb(8,102,255);
     background-color: rgb(228,230,235);
     padding-bottom: 30px;
@@ -600,11 +601,11 @@ html {
     font-size: 15px;
 }
 
-.item-9 #right #circle i:hover{
+.item-9 #right #circle i:active{
     color: rgb(8,102,254);
 }
 
-.item-9 #right #circle:not(:hover){
+.item-9 #right #circle:not(:active){
     background-color:rgb(228,230,235);
     transition: all 0.2s ease 0s;
 }
@@ -619,8 +620,11 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-    
+}
+
+.item-10:not(:hover){
+    font-size: 20px;
+    transition: all 0.2s ease 0.2s;
 }
 
 .item-10 #left{
@@ -644,10 +648,43 @@ html {
     border-bottom: 1.5px solid black;
 }
 
+.item-10 #left p:hover{
+    border-bottom: none;
+    transition: all 0.2s ease 0s;
+    font-size: 20px;
+}
+
+.item-10 #left i:hover{
+    font-size: 25px;
+    transition: all 0.2s ease 0s;
+}
 
 .item-10 #middle p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding-top 0.5s ease-in-out;
+    color: black;
+    padding-top: 5px;
+  }
+  
+  .item-10 #middle h2:active + p {
+    max-height: 50px;
+    padding-bottom: 40px;
+  }
+
+.item-10 #middle p{
+    max-height: 0;
+    overflow: hidden;
     color: black;
     font-weight: bold;
+    font-size: 20px;
+}
+
+
+.item-10 #middle h2 {
+    color:rgb(33,33,33);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .item-10 #right {
@@ -666,3 +703,5 @@ html {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: 1.5px solid black;
 }
+
+
