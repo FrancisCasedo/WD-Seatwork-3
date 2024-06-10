@@ -4,7 +4,7 @@ body{
 
 .container{
     margin: 20px;
-    height: 700px;
+    height: 600px;
     outline: 1px solid gray;
     background-color: rgb(33,33,33);
     border-radius: 30px;
@@ -81,15 +81,23 @@ body{
 }
 
 
+
 .image img.brand {
     position: absolute;
-    height: 108%;
-    left: 90%;
-    transform: translate(-50%);
-    bottom: 0;
+    height: 103%;
+    left: 80%;
+    transform:translate(-50%);
+    bottom: -2%;
     transition: left 2s ease;
-    margin-bottom: 5px;
 }
 
+.foothold img.plane{
+    width:100%;
+    height: 150%;
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    z-index: 1;
+}
 
 
