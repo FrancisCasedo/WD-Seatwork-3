@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255,198,66);
+}
+
+.container{
+    margin: 20px;
+    height: 700px;
+    outline: 1px solid gray;
+    background-color: rgb(33,33,33);
+    border-radius: 30px;
+}
+
+.middle {
+    grid-column: 2;
+    margin-left: 40px;
+}
+
+.middle #Text{
+    padding-top: 20px;
+}
+
+.middle #Text h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 35px;
+}
+
+.middle #Text h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 38px;
+}
+
+.middle #Text #description{
+    width: 700px;
+}
+
+
+.middle #Text #description p{
+    font-size: 20px;
+    color: rgb(255,198,66);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.middle #buttons {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+.middle #buttons nav{
+    display: flex;
+    gap: 20px;
+}
+
+.middle #buttons button{
+    border-radius: 25px;
+    background-color: rgb(255,198,66);
+    outline: 1px solid rgb(122,106,104);
+}
+
+.middle #buttons button:hover{
+    transform: scale(110%) translateY(-4px);
+    box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.middle #buttons h1:hover{
+    color: white;
+}
+
+.middle #buttons h1{
+    font-size: 12px;
+    padding: 6px 20px 6px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(122,106,104);
+}
+
+
+
+
