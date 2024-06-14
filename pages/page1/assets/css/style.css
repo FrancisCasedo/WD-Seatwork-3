@@ -52,7 +52,6 @@ html {
 .header-info{
     background:rgb(33,33,33);
     color: rgb(255,198,66);
-    display: flex;
     padding-top: 10px;
     padding-left: 30px;
 }
