@@ -95,12 +95,12 @@
     flex-direction: column;
     margin-left: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 8    00px;
+    width: 800px;
 }
 
 .footer-2 #left h1{
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 .footer-2 #left p{
@@ -130,11 +130,15 @@
     width: 400px;
 }
 
+.footer-2 #middleR #nav a{
+    text-decoration: none;
+    padding-top: 3px;
+    width: 100px;
+}
 
 .footer-2 #middleR #nav p{
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
 }
@@ -149,13 +153,19 @@
 }
 
 .footer-2 #right{
-    margin-left: 450px;
+    margin-left: 160px;
     height: 60px;
+    
     padding-top: 30px;
+    margin-right: 40px;
 }
 
 .footer-2 #right button{
-    background-color: rgb(41,122,204)
+    background-color: rgb(41,122,204);
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 13px;
 }
 
 .footer-2 #right p{

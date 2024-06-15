@@ -63,7 +63,7 @@ This project includes a landing page which allows you to go to 2 pages where the
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-- Parallax transition
+- Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
