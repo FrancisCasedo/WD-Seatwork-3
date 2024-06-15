@@ -110,4 +110,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| N/A | Used in adding the character in the home page | https://github.com/Jeneggs/WD-Sw2_Berris |
+| Character in home page | Used in adding the character in the home page | https://github.com/Jeneggs/WD-Sw2_Berris |
+|Header-1|Copied the layout of the header in the website|https://feu.instructure.com/|
+|Header-3|Copied the layout of the header in the website|https://icons.getbootstrap.com/|
+|Header-4|Copied the layout of the the header in the website + took inspiration of the animations when clicking the elements within the header|https://www.facebook.com/|
+|Footer-5|Copied the layout of the footer in the website|https://www.samsung.com/ph/|
+

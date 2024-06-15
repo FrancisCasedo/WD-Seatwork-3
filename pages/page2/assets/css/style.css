@@ -12,6 +12,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .Title h1{
@@ -94,10 +95,11 @@
     flex-direction: column;
     margin-left: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 8    00px;
 }
 
 .footer-2 #left h1{
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 20px;
 }
 
@@ -122,15 +124,16 @@
 }
 
 .footer-2 #middleR {
-    margin-left: 400px;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
-    height: 30px;
+    width: 400px;
 }
+
 
 .footer-2 #middleR #nav p{
     color: white;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
@@ -179,14 +182,19 @@
     color: rgb(80,81,83);
 }
 
+
 .footer-3 #middle{
     display: flex;
     flex-direction: row;
     column-gap: 80px;
     height: 50px;
     padding-bottom: 30px;
-    color: rgb(94,97,102);
     font-size: 20px;
+}
+
+.footer-3 #middle a{
+    color: rgb(94,97,102);
+    text-decoration: none;
 }
 
 .footer-4{
@@ -196,6 +204,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.footer-4 #bottom a{
+    text-decoration: none;
+    color:rgb(123,123,125);
 }
 
 .footer-4 #top{
@@ -212,7 +225,6 @@
     background-color:rgb(228,230,235);
     display: flex;
     justify-content: center;
-    
 }
 
 .footer-4 #icons i{
@@ -222,10 +234,8 @@
 
 .footer-4 #bottom{
     column-gap: 30px;
-    color:rgb(123,123,125) ;
     display: flex;
     flex-direction: row;
-    
 }
 
 .footer-5{
@@ -288,4 +298,268 @@
     font-size: 30px;
     color: rgb(255,198,66);
     margin-top: 30px;
+}
+
+.footer-6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: rgb(35,38,47);
+}
+
+
+.footer-6 #icon{
+    font-size: 80px;
+    padding-top:20px;
+    color: rgb(80,81,83);
+}
+
+.footer-6 #middle:hover{
+    color: rgb(35,38,47);
+    background-color: black;
+    transition: all 0.1s ease 0s;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    transition: 0.5s ease;
+}
+
+.footer-6 #middle a:hover{
+    color: rgb(35,38,47);
+}
+
+.footer-6 #middle{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    height: 50px;
+    padding-bottom: 30px;
+    color: rgb(94,97,102);
+    font-size: 20px;
+}
+
+.footer-6 #middle a{
+    text-decoration: none;
+    color: rgb(94,97,102);
+}
+
+.footer-7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: rgb(35,38,47);
+}
+
+
+.footer-7 #icon{
+    font-size: 80px;
+    padding-top:20px;
+    color: rgb(80,81,83);
+}
+
+.footer-7 #icon i:active{
+    color: rgb(35,38,47);
+    border-radius: 20px;
+    background-color: rgb(80,81,83);
+    height: 100px;
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.footer-7 #middle:hover{
+    color: rgb(35,38,47);
+    background-color: black;
+    transition: all 0.1s ease 0s;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    transition: 0.5s ease;
+}
+
+.footer-7 #middle a:hover{
+    color: rgb(35,38,47);
+}
+
+
+
+.footer-7 #middle{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    height: 50px;
+    padding-bottom: 30px;
+    color: rgb(94,97,102);
+    font-size: 20px;
+}
+
+.footer-7 #middle a{
+    text-decoration: none;
+    color: rgb(80,81,83);
+}
+
+.footer-8{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.footer-8 #top{
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.footer-8 #icons{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(228,230,235);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-8 #top #icons:not(:hover){
+    transform: rotateX(360deg);
+    transition: all 0.5s ease 0s;
+}
+
+
+.footer-8 #icons i{
+    color: black;
+    font-size: 20px;
+}
+
+.footer-8 #bottom{
+    column-gap: 30px;
+    color:rgb(123,123,125);
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-8 #bottom a{
+    color:rgb(123,123,125);
+    text-decoration: none;
+}
+
+.footer-9{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-9 #top{
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.footer-9 #top #icons:not(:hover){
+    transform: rotateX(360deg);
+    transition: all 0.5s ease 0s;
+}
+
+.footer-9 #icons{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(228,230,235);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-9 #icons i{
+    color: black;
+    font-size: 20px;
+}
+
+.footer-9 #bottom{
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-9 #bottom a{
+    text-decoration: none;
+    color:rgb(123,123,125) ;
+}
+
+.footer-9 #bottom a:active{
+    color: white;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.footer-10{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-10 #top{
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.footer-10 #top #icons:not(:hover){
+    transform: rotateX(360deg);
+    transition: all 0.5s ease 0s;
+}
+
+.footer-10 #icons{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(228,230,235);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-10 #icons i{
+    color: black;
+    font-size: 20px;
+}
+
+.footer-10 #bottom{
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-10 #bottom a{
+    text-decoration: none;
+    color:rgb(123,123,125) ;
+}
+
+.footer-10 #bottom a:active{
+    color: white;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.footer-10 #top #icons i:hover{
+    transform: rotateX(360deg);
+    transition: all 0.5s ease 0s;
 }
